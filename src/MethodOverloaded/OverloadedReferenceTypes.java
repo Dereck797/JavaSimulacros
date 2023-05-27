@@ -2,7 +2,7 @@ package MethodOverloaded;
 
 public class OverloadedReferenceTypes {
   public static void main(String[] args) {
-    m1(1, 3);
+    m1(new Integer(1), 3);
   }
 
   static void m1(Object s) {
@@ -23,6 +23,10 @@ public class OverloadedReferenceTypes {
   }
 
   static void m1(Integer s, Long d) {
+    System.out.println("CharSequence");
+  }
+
+  static void m1(Integer s, long d) {
     System.out.println("CharSequence");
   }
 

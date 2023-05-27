@@ -1,0 +1,5 @@
+-Tener cuidado de que los constructores no llevan la palabra reservada void, sino que pueden ir solo o con la palabra public o sin nada.
+-Tener en cuenta que los objetos de tipo date no pueden ser mutables
+-Tener en cuenta que las clase String no puede ser extendida a ninguna otra clase
+-Tener en cuenta que a las listas se les debe agregar siempre elementos desde el indice 0
+-Tener en cuenta que un objeto String no se puede comparar con un objeto Stringbuilder por medio del operador ==
